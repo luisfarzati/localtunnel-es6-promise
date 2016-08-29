@@ -1,9 +1,13 @@
 {
   "name": "localtunnel-es6-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple ES6 Promise wrapper for localtunnel",
   "author": "Luis Farzati <lfarzati@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luisfarzati/localtunnel-es6-promise.git"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register --ui qunit --reporter list --timeout 10000 -- test/index.js"
